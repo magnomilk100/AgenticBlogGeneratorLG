@@ -11,9 +11,7 @@ class GroqLLM:
         try:
             print(os.getenv("GROQ_API_KEY"))
             os.environ["GROQ_API_KEY"]=self.groq_api_key=os.getenv("GROQ_API_KEY")
-            if not self.groq_api_key:
-                raise ValueError("GROQ_API_KEY is missing — did you create the .env file?")                 
             llm=ChatGroq(api_key=self.groq_api_key,model="llama-3.1-8b-instant")
             return llm
         except Exception as e:
-            raise ValueError("Error occurred with exception : {e}")            
+            raise ValueError("Error occurred with exception : {e}")

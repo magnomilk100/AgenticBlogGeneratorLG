@@ -3,8 +3,7 @@ langgraph
 langchain_community
 langchain_core
 langchain_groq
-watchdog
 fastapi
 uvicorn
-langgraph-cli[inmen]
-fastapi
+watchdog
+langgraph-cli[inmem]
