@@ -1,6 +1,7 @@
 # 🤖 AgenticBlogGeneratorLG
 
-A multi-agent LLM system that automates blog generation using AI—integrating OpenAI, Hugging Face, and custom agents for research, drafting, and refinement.
+A multi-agent LLM system Langgraph example that automates blog generation using AI—integrating Groq, can be extended to any LLM OpenAI, Hugging Face, and custom agents for research, drafting, and refinement.
+Dont use it in production environment. If you want so, add all the validations, error handling, throtling, authorization, authentication if needed.
 
 ---
 
